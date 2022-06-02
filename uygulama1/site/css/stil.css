@@ -1,0 +1,75 @@
+body{
+	background:url("../resimler/bulut.jpg");
+	font-family:verdana;
+}
+
+#ana {
+	margin-left:auto;
+	margin-right:auto;
+	width:920px;
+	border-radius:10px;
+	border:1px solid #336699;
+}
+
+#banner, #menu, #icerik, #alt {
+	margin:5px;
+	border-radius:10px;
+	border:1px solid #336699;
+	background-color:#ffffff; /* verilmedi */
+}
+
+#banner {
+	background:url("../resimler/banner.jpg");
+	height:200px;
+}
+
+#menu {
+	float:left;
+	width:200px;
+	min-height:400px;
+}
+
+#menu a{
+	display:block;
+	color:#000080;
+	border:1px solid #336699;
+	background:#aaccff;
+	padding:5px;
+	margin:10px;
+	box-shadow:0 0 5px #000000;
+	border-radius:10px;
+	text-decoration:none;
+}
+
+#menu a:hover{
+	background:#eeeeee;
+	color:#ff0000;
+}
+#icerik {
+	float:left;
+	width:695px; /* verilmedi */
+	min-height:400px;
+}
+
+#icerik h1 {
+	font-size:24px;
+	color:#000080;
+}
+#icerik p {
+	text-align:justify;
+	color:#336699;
+}
+#alt {
+	clear:both;
+	text-align:center;
+	padding:5px;
+}
+#alt a{
+	color:#000080;
+	text-decoration:none;
+}
+#alt a:hover{
+	text-decoration:underline;
+}
+
+

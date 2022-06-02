@@ -1,0 +1,166 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*
+Web Tasarım ve Programlama Dersi
+Css Uygulama Sınavı 
+www.bilisimogretmeni.com
+
+*/
+body {
+	background-image:url(images/bg.jpg);
+	
+}
+#genel {
+	background-color: #FFF;
+	padding: 10px;
+	height: auto;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #CCC;
+	
+}
+
+#header {
+	height: 50px;
+	width: 980px;
+}
+#logo {
+	height: 150px;
+	width: 189px;
+	float: left;
+}
+#menu {
+	background-color:#FFF;
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 790px;
+	float: left;
+	margin-top: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666;
+}
+#genel #header #menu ul {
+	padding: 0px;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+#genel #header #menu ul li a {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 110px;
+	text-decoration: none;
+	color: #077936;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+#genel #header #menu ul li a:hover {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 110px;
+	text-decoration: none;
+	color:#FFF;
+	background-color:#069;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+#clear-header {
+	clear: both;
+}
+#banner {
+	height: 303px;
+	width: 980px;
+	margin-top: 10px;
+	background-image: url(malzemeler/bgSlide.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 12px;
+}
+
+#icerik {
+	height: 200px;
+	width: 980px;
+	margin-top:10px;
+}
+#icerik-sol {
+	background-color: #F0EAD2;
+	
+	width: 308px;
+	border: 1px solid #CCC;
+	float: left;
+	padding: 5px;
+	font-size: 14px;
+	text-align: justify;
+	
+}
+#genel #icerik #icerik-sol  h1 {
+	font-size: 14px;
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+#genel #icerik #icerik-sag  h1 {
+	font-size: 14px;
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+#clear-icerik {
+	clear: both;
+}
+#footer {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	height: 30px;
+	width: 980px;
+	line-height: 30px;
+	margin-top: 10px;
+	text-align:center;
+}
+#genel #footer a {
+	color: #333;
+	text-decoration: none;
+}
+#genel #footer a:hover {
+	color: #F00;
+	text-decoration: none;
+}
+
+#icerik-orta {
+	height: 200px;
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#icerik-sag {
+	
+	width: 308px;
+	float: left;
+	background-color: #F0EAD2;
+	border: 1px solid #CCC;
+	padding: 5px;
+	font-size: 14px;
+	text-align: justify;
+	
+}
